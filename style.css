@@ -1,0 +1,115 @@
+/* Definição de estilo básico para toda a página */
+body {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #e1dede;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex; 
+   
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+.centralizada {
+    display: block; 
+    margin: 0 auto; 
+}
+
+h1 {
+    color: #CD5C5C;
+    text-align: center ;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #CD5C5C;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+li ,select, option{
+    font-size: 16px;
+    color: #494747;
+    line-height: 1.6;
+    text-align: 20px;
+    margin-bottom: 10px;
+}
+p ,a  {
+    font-size: 16px;
+    color: #494747;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+form {
+    background-color: #656565;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #b3b1b1;
+    max-width: 500px;
+    width: 100%;
+    
+}
+
+
+label 
+{
+    font-size: 21px;
+    color: white;
+}
+
+input[type="text"] {
+    background-color: #b3b1b1;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #908e8e;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 21px;
+
+}
+input[type="text"]:valid {
+    background-color: #b3b1b1; 
+}
+
+
+input[type="submit"] {
+    background-color: #CD5C5C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #b34c4c;
+}
+
+span {
+    display: block;
+    margin-top: 20px; 
+    text-align: center;
+
+    color: #494747;
+    
+
+}
